@@ -64,8 +64,8 @@ All column names for this file were originally from features.txt. They were alte
 <li>SITTING</li>
 <li>STANDING</li>
 <li>LAYING</li>
-</ol>
-<br/>**Data type:** factor<br/><br/>
+</ol><br/>
+**Data type:** factor<br/><br/>
 
 
 **Column:** Activity<br/>
