@@ -6,9 +6,8 @@
 Please look at `run_analysis.R` for my completed assignment.<br/>
 *Completed:* June 21, 2014<br/><br/>
 
-To read the output file back into R, use the following command:<br/>
-`machine_learning <- read.table("./data/machine_learning_clean.txt", header = TRUE, sep = "\t")`<br/>
-(where the file is located in the ./data folder)<br/><br/>
+To read the output file back into R, use the following command with the file in the working directory:<br/>
+`machine_learning <- read.table("./machine_learning_clean.txt", header = TRUE, sep = "\t")`<br/>
 
 All data was downloaded from:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip

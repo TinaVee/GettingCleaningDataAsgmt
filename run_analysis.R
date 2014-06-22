@@ -15,11 +15,11 @@
 #===============================================================================
 
 #Download data
-if(!file.exists("./data")){dir.create("/data")}
+#if(!file.exists("./data")){dir.create("/data")} 
 
-if(!file.exists("./data/machine_learning.zip")){
+if(!file.exists("./machine_learning.zip")){
         fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
-        download.file(fileUrl,destfile="./data/machine_learning.zip")
+        download.file(fileUrl,destfile="./machine_learning.zip")
 }
 
 
@@ -27,23 +27,23 @@ if(!file.exists("./data/machine_learning.zip")){
 
 
 #load in the training dataset
-training_set <- read.table(unz("./data/machine_learning.zip", 
+training_set <- read.table(unz("./machine_learning.zip", 
                                "UCI HAR Dataset/train/X_train.txt"))
 #load in the test dataset
-test_set <- read.table(unz("./data/machine_learning.zip", 
+test_set <- read.table(unz("./machine_learning.zip", 
                            "UCI HAR Dataset/test/X_test.txt"))
 #load in the column names for the training and test datasets
-training_test_colnames <- read.table(unz("./data/machine_learning.zip", 
+training_test_colnames <- read.table(unz("./machine_learning.zip", 
                                          "UCI HAR Dataset/features.txt"))
 
 #load in the training labels
-training_labels <- read.table(unz("./data/machine_learning.zip", 
+training_labels <- read.table(unz("./machine_learning.zip", 
                                   "UCI HAR Dataset/train/y_train.txt"))
 #load in the test labels
-test_labels <- read.table(unz("./data/machine_learning.zip", 
+test_labels <- read.table(unz("./machine_learning.zip", 
                               "UCI HAR Dataset/test/y_test.txt"))
 #load in activty labels
-activity_labels <- read.table(unz("./data/machine_learning.zip", 
+activity_labels <- read.table(unz("./machine_learning.zip", 
                                   "UCI HAR Dataset/activity_labels.txt"))
 
 
@@ -135,6 +135,6 @@ machine_learning = merge(activity_labels,machine_learning,by.x=1,by.y=2,all=TRUE
 require(reshape2)
 df_melt <- melt(machine_learning, id = c("file", "ActNo", "Activity"))
 clean_data_set <- dcast(df_melt, file + ActNo + Activity ~ variable, mean)
-write.table(clean_data_set, "./data/machine_learning_clean.txt", sep="\t",
+write.table(clean_data_set, "./machine_learning_clean.txt", sep="\t",
             row.names = FALSE)
 
