@@ -2,7 +2,7 @@
 ### Coursera: Getting and Cleaning Data, Week 3, Assignment 1.
 ### File: CodeBook.md for machine_learning_clean.csv
 ========================================================
-**Description:** This is a a code book that describes the variables, the data, and any transformations or work performed to clean up the data.
+**Description:** This is the code book that describes the variables, the data, and any transformations or work performed to clean up the data.
 Please look at `run_analysis.R` for my completed assignment.<br/>
 *Completed:* June 21, 2014
 
