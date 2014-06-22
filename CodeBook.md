@@ -45,7 +45,8 @@ All column names for this file were originally from features.txt. They were alte
 **Descriptions were interpreted based off of the following article: **
 [http://vodkhang.com/wp-content/uploads/2013/04/Prediction-Model-for-Smartphone-Behaviour.pdf]
 
-"**Column:** file<br/>
+
+**Column:** file<br/>
 **Description:** column created to denote which dataset data was obtained from<br/>
               **Factors:** <br/>
 * training (from training data set)<br/>
@@ -80,517 +81,517 @@ All column names for this file were originally from features.txt. They were alte
 
 
 **Column:** tBodyAccMeanX<br/>
-**Description:** Based on factors from the file and activity, this is the mean of mean of Linear Body Acceleration X axis<br/>
+**Description:** Based on factors from the file and activity columns, this is the mean of mean of Linear Body Acceleration X axis<br/>
 **Min:** 0.2619 **Max:** 0.2882<br/>
 **Data type:** numeric<br/><br/><br/>
 
 
 **Column:** tBodyAccMeanY<br/>
-**Description:** Based on factors from the file and activity, this is the mean of mean of Linear Body Acceleration Y axis<br/>
+**Description:** Based on factors from the file and activity columns, this is the mean of mean of Linear Body Acceleration Y axis<br/>
 **Min:** -0.02665 **Max:** -0.01214<br/>
 **Data type:** numeric<br/><br/><br/>
 
 
 **Column:** tBodyAccMeanZ<br/>
-**Description:** Based on factors from the file and activity, this is the mean of mean of Linear Body Acceleration Z axis<br/>
+**Description:** Based on factors from the file and activity columns, this is the mean of mean of Linear Body Acceleration Z axis<br/>
 **Min:** -0.1208 **Max:** -0.1027<br/>
 **Data type:** numeric<br/><br/><br/>
 
 
 **Column:** tBodyAccStdX<br/>
-**Description:** Based on factors from the file and activity, this is the mean of standard deviation of Linear Body Acceleration X axis<br/>
+**Description:** Based on factors from the file and activity columns, this is the mean of standard deviation of Linear Body Acceleration X axis<br/>
 **Min:** -0.9853 **Max:** 0.1398<br/>
 **Data type:** numeric<br/><br/><br/>
 
 
 **Column:** tBodyAccStdY<br/>
-**Description:** Based on factors from the file and activity, this is the mean of standard deviation of Linear Body Acceleration Y axis<br/>
+**Description:** Based on factors from the file and activity columns, this is the mean of standard deviation of Linear Body Acceleration Y axis<br/>
 **Min:** -0.95896 **Max:** 0.07918<br/>
 **Data type:** numeric<br/><br/><br/>
 
 
 **Column:** tBodyAccStdZ<br/>
-**Description:** Based on factors from the file and activity, this is the mean of standard deviation of Linear Body Acceleration Z axis<br/>
+**Description:** Based on factors from the file and activity columns, this is the mean of standard deviation of Linear Body Acceleration Z axis<br/>
 **Min:** -0.9649 **Max:** -0.1404<br/>
 **Data type:** numeric<br/><br/><br/>
 
 
 **Column:** tGravityAccMeanX<br/>
-**Description:** Based on factors from the file and activity, this is the mean of mean of Gravity Acceleration X axis<br/>
+**Description:** Based on factors from the file and activity columns, this is the mean of mean of Gravity Acceleration X axis<br/>
 **Min:** -0.3859 **Max:** 0.9431<br/>
 **Data type:** numeric<br/><br/><br/>
 
 
 **Column:** tGravityAccMeanY<br/>
-**Description:** Based on factors from the file and activity, this is the mean of mean of Gravity Acceleration Y axis<br/>
+**Description:** Based on factors from the file and activity columns, this is the mean of mean of Gravity Acceleration Y axis<br/>
 **Min:** -0.28692 **Max:** 0.63293<br/>
 **Data type:** numeric<br/><br/><br/>
 
 
 **Column:** tGravityAccMeanZ<br/>
-**Description:** Based on factors from the file and activity, this is the mean of mean of Gravity Acceleration Z axis<br/>
+**Description:** Based on factors from the file and activity columns, this is the mean of mean of Gravity Acceleration Z axis<br/>
 **Min:** -0.14831 **Max:** 0.57557<br/>
 **Data type:** numeric<br/><br/><br/>
 
 
 **Column:** tGravityAccStdX<br/>
-**Description:** Based on factors from the file and activity, this is the mean of standard deviation of Gravity Acceleration X axis<br/>
+**Description:** Based on factors from the file and activity columns, this is the mean of standard deviation of Gravity Acceleration X axis<br/>
 **Min:** -0.9883 **Max:** -0.9416<br/>
 **Data type:** numeric<br/><br/><br/>
 
 
 **Column:** tGravityAccStdY<br/>
-**Description:** Based on factors from the file and activity, this is the mean of standard deviation of Gravity Acceleration Y axis<br/>
+**Description:** Based on factors from the file and activity columns, this is the mean of standard deviation of Gravity Acceleration Y axis<br/>
 **Min:** -0.9793 **Max:** -0.9254<br/>
 **Data type:** numeric<br/><br/><br/>
 
 
 **Column:** tGravityAccStdZ<br/>
-**Description:** Based on factors from the file and activity, this is the mean of standard deviation of Gravity Acceleration Z axis<br/>
+**Description:** Based on factors from the file and activity columns, this is the mean of standard deviation of Gravity Acceleration Z axis<br/>
 **Min:** -0.9735 **Max:** -0.8997<br/>
 **Data type:** numeric<br/><br/><br/>
 
 
 **Column:** tBodyAccJerkMeanX<br/>
-**Description:** Based on factors from the file and activity, this is the mean of mean of Body Acceleration with Jerk Signal X axis<br/>
+**Description:** Based on factors from the file and activity columns, this is the mean of mean of Body Acceleration with Jerk Signal X axis<br/>
 **Min:** 0.07317 **Max:** 0.09162<br/>
 **Data type:** numeric<br/><br/><br/>
 
 
 **Column:** tBodyAccJerkMeanY<br/>
-**Description:** Based on factors from the file and activity, this is the mean of mean of Body Acceleration with Jerk Signal Y axis<br/>
+**Description:** Based on factors from the file and activity columns, this is the mean of mean of Body Acceleration with Jerk Signal Y axis<br/>
 **Min:** -0.003221 **Max:** 0.012123<br/>
 **Data type:** numeric<br/><br/><br/>
 
 
 **Column:** tBodyAccJerkMeanZ<br/>
-**Description:** Based on factors from the file and activity, this is the mean of mean of Body Acceleration with Jerk Signal Z axis<br/>
+**Description:** Based on factors from the file and activity columns, this is the mean of mean of Body Acceleration with Jerk Signal Z axis<br/>
 **Min:** -0.008875 **Max:** 0.00123<br/>
 **Data type:** numeric<br/><br/><br/>
 
 
 **Column:** tBodyAccJerkStdX<br/>
-**Description:** Based on factors from the file and activity, this is the mean of standard deviation of Body Acceleration with Jerk Signal X axis<br/>
+**Description:** Based on factors from the file and activity columns, this is the mean of standard deviation of Body Acceleration with Jerk Signal X axis<br/>
 **Min:** -0.985545 **Max:** -0.008197<br/>
 **Data type:** numeric<br/><br/><br/>
 
 
 **Column:** tBodyAccJerkStdY<br/>
-**Description:** Based on factors from the file and activity, this is the mean of standard deviation of Body Acceleration with Jerk Signal Y axis<br/>
+**Description:** Based on factors from the file and activity columns, this is the mean of standard deviation of Body Acceleration with Jerk Signal Y axis<br/>
 **Min:** -0.97465 **Max:** -0.06187<br/>
 **Data type:** numeric<br/><br/><br/>
 
 
 **Column:** tBodyAccJerkStdZ<br/>
-**Description:** Based on factors from the file and activity, this is the mean of standard deviation of Body Acceleration with Jerk Signal Z axis<br/>
+**Description:** Based on factors from the file and activity columns, this is the mean of standard deviation of Body Acceleration with Jerk Signal Z axis<br/>
 **Min:** -0.9825 **Max:** -0.3735<br/>
 **Data type:** numeric<br/><br/><br/>
 
 
 **Column:** tBodyGyroMeanX<br/>
-**Description:** Based on factors from the file and activity, this is the mean of mean of Body Gyroscope X axis<br/>
+**Description:** Based on factors from the file and activity columns, this is the mean of mean of Body Gyroscope X axis<br/>
 **Min:** -0.10134 **Max:** 0.02092<br/>
 **Data type:** numeric<br/><br/><br/>
 
 
 **Column:** tBodyGyroMeanY<br/>
-**Description:** Based on factors from the file and activity, this is the mean of mean of Body Gyroscope Y axis<br/>
+**Description:** Based on factors from the file and activity columns, this is the mean of mean of Body Gyroscope Y axis<br/>
 **Min:** -0.098 **Max:** -0.04614<br/>
 **Data type:** numeric<br/><br/><br/>
 
 
 **Column:** tBodyGyroMeanZ<br/>
-**Description:** Based on factors from the file and activity, this is the mean of mean of Body Gyroscope Z axis<br/>
+**Description:** Based on factors from the file and activity columns, this is the mean of mean of Body Gyroscope Z axis<br/>
 **Min:** 0.04912 **Max:** 0.12715<br/>
 **Data type:** numeric<br/><br/><br/>
 
 
 **Column:** tBodyGyroStdX<br/>
-**Description:** Based on factors from the file and activity, this is the mean of standard deviation of Body Gyroscope X axis<br/>
+**Description:** Based on factors from the file and activity columns, this is the mean of standard deviation of Body Gyroscope X axis<br/>
 **Min:** -0.9813 **Max:** -0.3169<br/>
 **Data type:** numeric<br/><br/><br/>
 
 
 **Column:** tBodyGyroStdY<br/>
-**Description:** Based on factors from the file and activity, this is the mean of standard deviation of Body Gyroscope Y axis<br/>
+**Description:** Based on factors from the file and activity columns, this is the mean of standard deviation of Body Gyroscope Y axis<br/>
 **Min:** -0.9678 **Max:** -0.3062<br/>
 **Data type:** numeric<br/><br/><br/>
 
 
 **Column:** tBodyGyroStdZ<br/>
-**Description:** Based on factors from the file and activity, this is the mean of standard deviation of Body Gyroscope Z axis<br/>
+**Description:** Based on factors from the file and activity columns, this is the mean of standard deviation of Body Gyroscope Z axis<br/>
 **Min:** -0.9689 **Max:** -0.2341<br/>
 **Data type:** numeric<br/><br/><br/>
 
 
 **Column:** tBodyGyroJerkMeanX<br/>
-**Description:** Based on factors from the file and activity, this is the mean of mean of Body Gyroscope with Jerk Signal X axis<br/>
+**Description:** Based on factors from the file and activity columns, this is the mean of mean of Body Gyroscope with Jerk Signal X axis<br/>
 **Min:** -0.11563 **Max:** -0.06957<br/>
 **Data type:** numeric<br/><br/><br/>
 
 
 **Column:** tBodyGyroJerkMeanY<br/>
-**Description:** Based on factors from the file and activity, this is the mean of mean of Body Gyroscope with Jerk Signal Y axis<br/>
+**Description:** Based on factors from the file and activity columns, this is the mean of mean of Body Gyroscope with Jerk Signal Y axis<br/>
 **Min:** -0.05193 **Max:** -0.03702<br/>
 **Data type:** numeric<br/><br/><br/>
 
 
 **Column:** tBodyGyroJerkMeanZ<br/>
-**Description:** Based on factors from the file and activity, this is the mean of mean of Body Gyroscope with Jerk Signal Z axis<br/>
+**Description:** Based on factors from the file and activity columns, this is the mean of mean of Body Gyroscope with Jerk Signal Z axis<br/>
 **Min:** -0.064 **Max:** -0.04932<br/>
 **Data type:** numeric<br/><br/><br/>
 
 
 **Column:** tBodyGyroJerkStdX<br/>
-**Description:** Based on factors from the file and activity, this is the mean of standard deviation of Body Gyroscope with Jerk Signal X axis<br/>
+**Description:** Based on factors from the file and activity columns, this is the mean of standard deviation of Body Gyroscope with Jerk Signal X axis<br/>
 **Min:** -0.9866 **Max:** -0.3612<br/>
 **Data type:** numeric<br/><br/><br/>
 
 
 **Column:** tBodyGyroJerkStdY<br/>
-**Description:** Based on factors from the file and activity, this is the mean of standard deviation of Body Gyroscope with Jerk Signal Y axis<br/>
+**Description:** Based on factors from the file and activity columns, this is the mean of standard deviation of Body Gyroscope with Jerk Signal Y axis<br/>
 **Min:** -0.9867 **Max:** -0.4448<br/>
 **Data type:** numeric<br/><br/><br/>
 
 
 **Column:** tBodyGyroJerkStdZ<br/>
-**Description:** Based on factors from the file and activity, this is the mean of standard deviation of Body Gyroscope with Jerk Signal Z axis<br/>
+**Description:** Based on factors from the file and activity columns, this is the mean of standard deviation of Body Gyroscope with Jerk Signal Z axis<br/>
 **Min:** -0.9853 **Max:** -0.3188<br/>
 **Data type:** numeric<br/><br/><br/>
 
 
 **Column:** tBodyAccMagMean<br/>
-**Description:** Based on factors from the file and activity, this is the mean of mean of Linear Body Acceleration with magnitude<br/>
+**Description:** Based on factors from the file and activity columns, this is the mean of mean of Linear Body Acceleration with magnitude<br/>
 **Min:** -0.9616 **Max:** 0.1374<br/>
 **Data type:** numeric<br/><br/><br/>
 
 
 **Column:** tBodyAccMagStd<br/>
-**Description:** Based on factors from the file and activity, this is the mean of standard deviation of Linear Body Acceleration with magnitude<br/>
+**Description:** Based on factors from the file and activity columns, this is the mean of standard deviation of Linear Body Acceleration with magnitude<br/>
 **Min:** -0.9498 **Max:** 0.1446<br/>
 **Data type:** numeric<br/><br/><br/>
 
 
 **Column:** tGravityAccMagMean<br/>
-**Description:** Based on factors from the file and activity, this is the mean of mean of Gravity Acceleration with magnitude<br/>
+**Description:** Based on factors from the file and activity columns, this is the mean of mean of Gravity Acceleration with magnitude<br/>
 **Min:** -0.9616 **Max:** 0.1374<br/>
 **Data type:** numeric<br/><br/><br/>
 
 
 **Column:** tGravityAccMagStd<br/>
-**Description:** Based on factors from the file and activity, this is the mean of standard deviation of Gravity Acceleration with magnitude<br/>
+**Description:** Based on factors from the file and activity columns, this is the mean of standard deviation of Gravity Acceleration with magnitude<br/>
 **Min:** -0.9498 **Max:** 0.1446<br/>
 **Data type:** numeric<br/><br/><br/>
 
 
 **Column:** tBodyAccJerkMagMean<br/>
-**Description:** Based on factors from the file and activity, this is the mean of mean of Body Acceleration with Jerk Signal with magnitude<br/>
+**Description:** Based on factors from the file and activity columns, this is the mean of mean of Body Acceleration with Jerk Signal with magnitude<br/>
 **Min:** -0.983 **Max:** -0.0897<br/>
 **Data type:** numeric<br/><br/><br/>
 
 
 **Column:** tBodyAccJerkMagStd<br/>
-**Description:** Based on factors from the file and activity, this is the mean of standard deviation of Body Acceleration with Jerk Signal with magnitude<br/>
+**Description:** Based on factors from the file and activity columns, this is the mean of standard deviation of Body Acceleration with Jerk Signal with magnitude<br/>
 **Min:** -0.97944 **Max:** 0.003197<br/>
 **Data type:** numeric<br/><br/><br/>
 
 
 **Column:** tBodyGyroMagMean<br/>
-**Description:** Based on factors from the file and activity, this is the mean of mean of Body Gyroscope with magnitude<br/>
+**Description:** Based on factors from the file and activity columns, this is the mean of mean of Body Gyroscope with magnitude<br/>
 **Min:** -0.9474 **Max:** -0.1046<br/>
 **Data type:** numeric<br/><br/><br/>
 
 
 **Column:** tBodyGyroMagStd<br/>
-**Description:** Based on factors from the file and activity, this is the mean of standard deviation of Body Gyroscope with magnitude<br/>
+**Description:** Based on factors from the file and activity columns, this is the mean of standard deviation of Body Gyroscope with magnitude<br/>
 **Min:** -0.9521 **Max:** -0.2273<br/>
 **Data type:** numeric<br/><br/><br/>
 
 
 **Column:** tBodyGyroJerkMagMean<br/>
-**Description:** Based on factors from the file and activity, this is the mean of mean of Body Gyroscope with Jerk Signal with magnitude<br/>
+**Description:** Based on factors from the file and activity columns, this is the mean of mean of Body Gyroscope with Jerk Signal with magnitude<br/>
 **Min:** -0.9882 **Max:** -0.3972<br/>
 **Data type:** numeric<br/><br/><br/>
 
 
 **Column:** tBodyGyroJerkMagStd<br/>
-**Description:** Based on factors from the file and activity, this is the mean of standard deviation of Body Gyroscope with Jerk Signal with magnitude<br/>
+**Description:** Based on factors from the file and activity columns, this is the mean of standard deviation of Body Gyroscope with Jerk Signal with magnitude<br/>
 **Min:** -0.9849 **Max:** -0.4309<br/>
 **Data type:** numeric<br/><br/><br/>
 
 
 **Column:** fBodyAccMeanX<br/>
-**Description:** Based on factors from the file and activity, this is the mean of mean of Fast Fourier Transform (FFT) Linear Body Acceleration X axis<br/>
+**Description:** Based on factors from the file and activity columns, this is the mean of mean of Fast Fourier Transform (FFT) Linear Body Acceleration X axis<br/>
 **Min:** -0.98324 **Max:** 0.07136<br/>
 **Data type:** numeric<br/><br/><br/>
 
 
 **Column:** fBodyAccMeanY<br/>
-**Description:** Based on factors from the file and activity, this is the mean of mean of FFT Linear Body Acceleration Y axis<br/>
+**Description:** Based on factors from the file and activity columns, this is the mean of mean of FFT Linear Body Acceleration Y axis<br/>
 **Min:** -0.96286 **Max:** 0.07377<br/>
 **Data type:** numeric<br/><br/><br/>
 
 
 **Column:** fBodyAccMeanZ<br/>
-**Description:** Based on factors from the file and activity, this is the mean of mean of FFT Linear Body Acceleration Z axis<br/>
+**Description:** Based on factors from the file and activity columns, this is the mean of mean of FFT Linear Body Acceleration Z axis<br/>
 **Min:** -0.97 **Max:** -0.193<br/>
 **Data type:** numeric<br/><br/><br/>
 
 
 **Column:** fBodyAccStdX<br/>
-**Description:** Based on factors from the file and activity, this is the mean of standard deviation of FFT Linear Body Acceleration X axis<br/>
+**Description:** Based on factors from the file and activity columns, this is the mean of standard deviation of FFT Linear Body Acceleration X axis<br/>
 **Min:** -0.9866 **Max:** 0.1618<br/>
 **Data type:** numeric<br/><br/><br/>
 
 
 **Column:** fBodyAccStdY<br/>
-**Description:** Based on factors from the file and activity, this is the mean of standard deviation of FFT Linear Body Acceleration Y axis<br/>
+**Description:** Based on factors from the file and activity columns, this is the mean of standard deviation of FFT Linear Body Acceleration Y axis<br/>
 **Min:** -0.9593 **Max:** 0.01164<br/>
 **Data type:** numeric<br/><br/><br/>
 
 
 **Column:** fBodyAccStdZ<br/>
-**Description:** Based on factors from the file and activity, this is the mean of standard deviation of FFT Linear Body Acceleration Z axis<br/>
+**Description:** Based on factors from the file and activity columns, this is the mean of standard deviation of FFT Linear Body Acceleration Z axis<br/>
 **Min:** -0.9644 **Max:** -0.1059<br/>
 **Data type:** numeric<br/><br/><br/>
 
 
 **Column:** fBodyAccMeanFreqX<br/>
-**Description:** Based on factors from the file and activity, this is the mean of mean of FFT Linear Body Acceleration Frequency X axis<br/>
+**Description:** Based on factors from the file and activity columns, this is the mean of mean of FFT Linear Body Acceleration Frequency X axis<br/>
 **Min:** -0.44154 **Max:** 0.03834<br/>
 **Data type:** numeric<br/><br/><br/>
 
 
 **Column:** fBodyAccMeanFreqY<br/>
-**Description:** Based on factors from the file and activity, this is the mean of mean of FFT Linear Body Acceleration Frequency Y axis<br/>
+**Description:** Based on factors from the file and activity columns, this is the mean of mean of FFT Linear Body Acceleration Frequency Y axis<br/>
 **Min:** -0.1734 **Max:** 0.19144<br/>
 **Data type:** numeric<br/><br/><br/>
 
 
 **Column:** fBodyAccMeanFreqZ<br/>
-**Description:** Based on factors from the file and activity, this is the mean of mean of FFT Linear Body Acceleration Frequency Z axis<br/>
+**Description:** Based on factors from the file and activity columns, this is the mean of mean of FFT Linear Body Acceleration Frequency Z axis<br/>
 **Min:** -0.27951 **Max:** 0.24192<br/>
 **Data type:** numeric<br/><br/><br/>
 
 
 **Column:** fBodyAccJerkMeanX<br/>
-**Description:** Based on factors from the file and activity, this is the mean of mean of FFT Linear Body Acceleration with Jerk Signal X axis<br/>
+**Description:** Based on factors from the file and activity columns, this is the mean of mean of FFT Linear Body Acceleration with Jerk Signal X axis<br/>
 **Min:** -0.9857 **Max:** -0.04764<br/>
 **Data type:** numeric<br/><br/><br/>
 
 
 **Column:** fBodyAccJerkMeanY<br/>
-**Description:** Based on factors from the file and activity, this is the mean of mean of FFT Linear Body Acceleration with Jerk Signal Y axis<br/>
+**Description:** Based on factors from the file and activity columns, this is the mean of mean of FFT Linear Body Acceleration with Jerk Signal Y axis<br/>
 **Min:** -0.9748 **Max:** -0.1059<br/>
 **Data type:** numeric<br/><br/><br/>
 
 
 **Column:** fBodyAccJerkMeanZ<br/>
-**Description:** Based on factors from the file and activity, this is the mean of mean of FFT Linear Body Acceleration with Jerk Signal Z axis<br/>
+**Description:** Based on factors from the file and activity columns, this is the mean of mean of FFT Linear Body Acceleration with Jerk Signal Z axis<br/>
 **Min:** -0.9799 **Max:** -0.3146<br/>
 **Data type:** numeric<br/><br/><br/>
 
 
 **Column:** fBodyAccJerkStdX<br/>
-**Description:** Based on factors from the file and activity, this is the mean of standard deviation of FFT Linear Body Acceleration with Jerk Signal X axis<br/>
+**Description:** Based on factors from the file and activity columns, this is the mean of standard deviation of FFT Linear Body Acceleration with Jerk Signal X axis<br/>
 **Min:** -0.9867 **Max:** -0.0579<br/>
 **Data type:** numeric<br/><br/><br/>
 
 
 **Column:** fBodyAccJerkStdY<br/>
-**Description:** Based on factors from the file and activity, this is the mean of standard deviation of FFT Linear Body Acceleration with Jerk Signal Y axis<br/>
+**Description:** Based on factors from the file and activity columns, this is the mean of standard deviation of FFT Linear Body Acceleration with Jerk Signal Y axis<br/>
 **Min:** -0.97639 **Max:** -0.07903<br/>
 **Data type:** numeric<br/><br/><br/>
 
 
 **Column:** fBodyAccJerkStdZ<br/>
-**Description:** Based on factors from the file and activity, this is the mean of standard deviation of FFT Linear Body Acceleration with Jerk Signal Z axis<br/>
+**Description:** Based on factors from the file and activity columns, this is the mean of standard deviation of FFT Linear Body Acceleration with Jerk Signal Z axis<br/>
 **Min:** -0.9838 **Max:** -0.432<br/>
 **Data type:** numeric<br/><br/><br/>
 
 
 **Column:** fBodyAccJerkMeanFreqX<br/>
-**Description:** Based on factors from the file and activity, this is the mean of mean of FFT Linear Body Acceleration with Jerk Signal Frequency X axis<br/>
+**Description:** Based on factors from the file and activity columns, this is the mean of mean of FFT Linear Body Acceleration with Jerk Signal Frequency X axis<br/>
 **Min:** -0.34376 **Max:** 0.20362<br/>
 **Data type:** numeric<br/><br/><br/>
 
 
 **Column:** fBodyAccJerkMeanFreqY<br/>
-**Description:** Based on factors from the file and activity, this is the mean of mean of FFT Linear Body Acceleration with Jerk Signal Frequency Y axis<br/>
+**Description:** Based on factors from the file and activity columns, this is the mean of mean of FFT Linear Body Acceleration with Jerk Signal Frequency Y axis<br/>
 **Min:** -0.45621 **Max:** 0.02929<br/>
 **Data type:** numeric<br/><br/><br/>
 
 
 **Column:** fBodyAccJerkMeanFreqZ<br/>
-**Description:** Based on factors from the file and activity, this is the mean of mean of FFT Linear Body Acceleration with Jerk Signal Frequency Z axis<br/>
+**Description:** Based on factors from the file and activity columns, this is the mean of mean of FFT Linear Body Acceleration with Jerk Signal Frequency Z axis<br/>
 **Min:** -0.449251 **Max:** 0.076565<br/>
 **Data type:** numeric<br/><br/><br/>
 
 
 **Column:** fBodyGyroMeanX<br/>
-**Description:** Based on factors from the file and activity, this is the mean of mean of FFT Body Gyroscope X axis<br/>
+**Description:** Based on factors from the file and activity columns, this is the mean of mean of FFT Body Gyroscope X axis<br/>
 **Min:** -0.9779 **Max:** -0.2018<br/>
 **Data type:** numeric<br/><br/><br/>
 
 
 **Column:** fBodyGyroMeanY<br/>
-**Description:** Based on factors from the file and activity, this is the mean of mean of FFT Body Gyroscope Y axis<br/>
+**Description:** Based on factors from the file and activity columns, this is the mean of mean of FFT Body Gyroscope Y axis<br/>
 **Min:** -0.9732 **Max:** -0.2868<br/>
 **Data type:** numeric<br/><br/><br/>
 
 
 **Column:** fBodyGyroMeanZ<br/>
-**Description:** Based on factors from the file and activity, this is the mean of mean of FFT Body Gyroscope Z axis<br/>
+**Description:** Based on factors from the file and activity columns, this is the mean of mean of FFT Body Gyroscope Z axis<br/>
 **Min:** -0.9683 **Max:** -0.1529<br/>
 **Data type:** numeric<br/><br/><br/>
 
 
 **Column:** fBodyGyroStdX<br/>
-**Description:** Based on factors from the file and activity, this is the mean of standard deviation of FFT Body Gyroscope X axis<br/>
+**Description:** Based on factors from the file and activity columns, this is the mean of standard deviation of FFT Body Gyroscope X axis<br/>
 **Min:** -0.9825 **Max:** -0.3582<br/>
 **Data type:** numeric<br/><br/><br/>
 
 
 **Column:** fBodyGyroStdY<br/>
-**Description:** Based on factors from the file and activity, this is the mean of standard deviation of FFT Body Gyroscope Y axis<br/>
+**Description:** Based on factors from the file and activity columns, this is the mean of standard deviation of FFT Body Gyroscope Y axis<br/>
 **Min:** -0.9653 **Max:** -0.2669<br/>
 **Data type:** numeric<br/><br/><br/>
 
 
 **Column:** fBodyGyroStdZ<br/>
-**Description:** Based on factors from the file and activity, this is the mean of standard deviation of FFT Body Gyroscope Z axis<br/>
+**Description:** Based on factors from the file and activity columns, this is the mean of standard deviation of FFT Body Gyroscope Z axis<br/>
 **Min:** -0.9721 **Max:** -0.2883<br/>
 **Data type:** numeric<br/><br/><br/>
 
 
 **Column:** fBodyGyroMeanFreqX<br/>
-**Description:** Based on factors from the file and activity, this is the mean of mean of FFT Body Gyroscope Frequency X axis<br/>
+**Description:** Based on factors from the file and activity columns, this is the mean of mean of FFT Body Gyroscope Frequency X axis<br/>
 **Min:** -0.25755 **Max:** 0.06669<br/>
 **Data type:** numeric<br/><br/><br/>
 
 
 **Column:** fBodyGyroMeanFreqY<br/>
-**Description:** Based on factors from the file and activity, this is the mean of mean of FFT Body Gyroscope Frequency Y axis<br/>
+**Description:** Based on factors from the file and activity columns, this is the mean of mean of FFT Body Gyroscope Frequency Y axis<br/>
 **Min:** -0.32436 **Max:** -0.02127<br/>
 **Data type:** numeric<br/><br/><br/>
 
 
 **Column:** fBodyGyroMeanFreqZ<br/>
-**Description:** Based on factors from the file and activity, this is the mean of mean of FFT Body Gyroscope Frequency Z axis<br/>
+**Description:** Based on factors from the file and activity columns, this is the mean of mean of FFT Body Gyroscope Frequency Z axis<br/>
 **Min:** -0.263452 **Max:** 0.113422<br/>
 **Data type:** numeric<br/><br/><br/>
 
 
 **Column:** fBodyAccMagMean<br/>
-**Description:** Based on factors from the file and activity, this is the mean of mean of FFT Linear Body Acceleration with magnitude<br/>
+**Description:** Based on factors from the file and activity columns, this is the mean of mean of FFT Linear Body Acceleration with magnitude<br/>
 **Min:** -0.9582 **Max:** 0.1711<br/>
 **Data type:** numeric<br/><br/><br/>
 
 
 **Column:** fBodyAccMagStd<br/>
-**Description:** Based on factors from the file and activity, this is the mean of standard deviation of FFT Linear Body Acceleration with magnitude<br/>
+**Description:** Based on factors from the file and activity columns, this is the mean of standard deviation of FFT Linear Body Acceleration with magnitude<br/>
 **Min:** -0.95314 **Max:** -0.05198<br/>
 **Data type:** numeric<br/><br/><br/>
 
 
 **Column:** fBodyAccMagMeanFreq<br/>
-**Description:** Based on factors from the file and activity, this is the mean of mean of FFT Linear Body Acceleration Frequency with magnitude<br/>
+**Description:** Based on factors from the file and activity columns, this is the mean of mean of FFT Linear Body Acceleration Frequency with magnitude<br/>
 **Min:** -0.05537 **Max:** 0.24654<br/>
 **Data type:** numeric<br/><br/><br/>
 
 
 **Column:** fBodyBodyAccJerkMagMean<br/>
-**Description:** Based on factors from the file and activity, this is the mean of mean of FFT Linear Body Acceleration with Jerk Signal with magnitude<br/>
+**Description:** Based on factors from the file and activity columns, this is the mean of mean of FFT Linear Body Acceleration with Jerk Signal with magnitude<br/>
 **Min:** -0.97926 **Max:** 0.02755<br/>
 **Data type:** numeric<br/><br/><br/>
 
 
 **Column:** fBodyBodyAccJerkMagStd<br/>
-**Description:** Based on factors from the file and activity, this is the mean of standard deviation of FFT Linear Body Acceleration with Jerk Signal with magnitude<br/>
+**Description:** Based on factors from the file and activity columns, this is the mean of standard deviation of FFT Linear Body Acceleration with Jerk Signal with magnitude<br/>
 **Min:** -0.9786 **Max:** -0.0388<br/>
 **Data type:** numeric<br/><br/><br/>
 
 
 **Column:** fBodyBodyAccJerkMagMeanFreq<br/>
-**Description:** Based on factors from the file and activity, this is the mean of mean of FFT Linear Body Acceleration with Jerk Signal Frequency with magnitude<br/>
+**Description:** Based on factors from the file and activity columns, this is the mean of mean of FFT Linear Body Acceleration with Jerk Signal Frequency with magnitude<br/>
 **Min:** 0.01107 **Max:** 0.29065<br/>
 **Data type:** numeric<br/><br/><br/>
 
 
 **Column:** fBodyBodyGyroMagMean<br/>
-**Description:** Based on factors from the file and activity, this is the mean of mean of FFT Body Gyroscope with magnitude<br/>
+**Description:** Based on factors from the file and activity columns, this is the mean of mean of FFT Body Gyroscope with magnitude<br/>
 **Min:** -0.9648 **Max:** -0.266<br/>
 **Data type:** numeric<br/><br/><br/>
 
 
 **Column:** fBodyBodyGyroMagStd<br/>
-**Description:** Based on factors from the file and activity, this is the mean of standard deviation of FFT Body Gyroscope with magnitude<br/>
+**Description:** Based on factors from the file and activity columns, this is the mean of standard deviation of FFT Body Gyroscope with magnitude<br/>
 **Min:** -0.9525 **Max:** -0.3417<br/>
 **Data type:** numeric<br/><br/><br/>
 
 
 **Column:** fBodyBodyGyroMagMeanFreq<br/>
-**Description:** Based on factors from the file and activity, this is the mean of mean of FFT Body Gyroscope Frequency with magnitude<br/>
+**Description:** Based on factors from the file and activity columns, this is the mean of mean of FFT Body Gyroscope Frequency with magnitude<br/>
 **Min:** -0.21264 **Max:** 0.20358<br/>
 **Data type:** numeric<br/><br/><br/>
 
 
 **Column:** fBodyBodyGyroJerkMagMean<br/>
-**Description:** Based on factors from the file and activity, this is the mean of mean of FTT Body Gyroscope with Jerk Signal with magnitude<br/>
+**Description:** Based on factors from the file and activity columns, this is the mean of mean of FTT Body Gyroscope with Jerk Signal with magnitude<br/>
 **Min:** -0.9857 **Max:** -0.4234<br/>
 **Data type:** numeric<br/><br/><br/>
 
 
 **Column:** fBodyBodyGyroJerkMagStd<br/>
-**Description:** Based on factors from the file and activity, this is the mean of standard deviation of FTT Body Gyroscope with Jerk Signal with magnitude<br/>
+**Description:** Based on factors from the file and activity columns, this is the mean of standard deviation of FTT Body Gyroscope with Jerk Signal with magnitude<br/>
 **Min:** -0.9847 **Max:** -0.4831<br/>
 **Data type:** numeric<br/><br/><br/>
 
 
 **Column:** fBodyBodyGyroJerkMagMeanFreq<br/>
-**Description:** Based on factors from the file and activity, this is the mean of mean of FTT Body Gyroscope with Jerk Signal  Frequency with magnitude<br/>
+**Description:** Based on factors from the file and activity columns, this is the mean of mean of FTT Body Gyroscope with Jerk Signal  Frequency with magnitude<br/>
 **Min:** 0.06057 **Max:** 0.18949<br/>
 **Data type:** numeric<br/><br/><br/>
 
 
 **Column:** angletBodyAccMean_gravity<br/>
-**Description:** Based on factors from the file and activity, this is the mean of mean of Linear Body Acceleration with angle measured between xyz vector and gravity mean<br/>
+**Description:** Based on factors from the file and activity columns, this is the mean of mean of Linear Body Acceleration with angle measured between xyz vector and gravity mean<br/>
 **Min:** -0.042003 **Max:** 0.048007<br/>
 **Data type:** numeric<br/><br/><br/>
 
 
 **Column:** angletBodyAccJerkMean_gravityMean<br/>
-**Description:** Based on factors from the file and activity, this is the mean of mean of Body Acceleration with Jerk Signal with angle measured between xyz vector and gravity mean<br/>
+**Description:** Based on factors from the file and activity columns, this is the mean of mean of Body Acceleration with Jerk Signal with angle measured between xyz vector and gravity mean<br/>
 **Min:** -0.021818 **Max:** 0.020597<br/>
 **Data type:** numeric<br/><br/><br/>
 
 
 **Column:** angletBodyGyroMean_gravityMean<br/>
-**Description:** Based on factors from the file and activity, this is the mean of mean of Body Gyroscope with angle measured between xyz vector and gravity mean<br/>
+**Description:** Based on factors from the file and activity columns, this is the mean of mean of Body Gyroscope with angle measured between xyz vector and gravity mean<br/>
 **Min:** -0.156998 **Max:** 0.247779<br/>
 **Data type:** numeric<br/><br/><br/>
 
 
 **Column:** angletBodyGyroJerkMean_gravityMean<br/>
-**Description:** Based on factors from the file and activity, this is the mean of mean of Body Gyroscope with Jerk Signal with angle measured between xyz vector and gravity mean<br/>
+**Description:** Based on factors from the file and activity columns, this is the mean of mean of Body Gyroscope with Jerk Signal with angle measured between xyz vector and gravity mean<br/>
 **Min:** -0.088956 **Max:** 0.044775<br/>
 **Data type:** numeric<br/><br/><br/>
 
 
 **Column:** angleX_gravityMean<br/>
-**Description:** Based on factors from the file and activity, this is the mean of mean of Angle measured between x and gravity mean<br/>
+**Description:** Based on factors from the file and activity columns, this is the mean of mean of Angle measured between x and gravity mean<br/>
 **Min:** -0.787 **Max:** 0.5285<br/>
 **Data type:** numeric<br/><br/><br/>
 
 
 **Column:** angleY_gravityMean<br/>
-**Description:** Based on factors from the file and activity, this is the mean of mean of Angle measured between y and gravity mean<br/>
+**Description:** Based on factors from the file and activity columns, this is the mean of mean of Angle measured between y and gravity mean<br/>
 **Min:** -0.44082 **Max:** 0.28237<br/>
 **Data type:** numeric<br/><br/><br/>
 
 
 **Column:** angleZ_gravityMean<br/>
-**Description:** Based on factors from the file and activity, this is the mean of mean of Angle measured between z and gravity mean<br/>
+**Description:** Based on factors from the file and activity columns, this is the mean of mean of Angle measured between z and gravity mean<br/>
 **Min:** -0.44571 **Max:** 0.12841<br/>
-**Data type:** numeric<br/><br/><br/>"
+**Data type:** numeric<br/><br/><br/>
 
