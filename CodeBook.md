@@ -7,6 +7,17 @@ Please look at `run_analysis.R` for my completed assignment.<br/>
 *Completed:* June 21, 2014
 
 
+All data was downloaded from:
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+Which contains the following files that were used as part of this assignment:
+* activity_labels.txt
+* features.txt
+* \test\X_test.txt
+* \test\y_test.txt
+* \train\X_train.txt
+* \train\y_train.txt
+
 ### Author's Description
 Taken directly from: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
  
@@ -42,8 +53,7 @@ All column names for this file were originally from features.txt. They were alte
 | mean | Mean |
 
 
-** Descriptions were interpreted based off of the following article: **
-<br/>
+**Descriptions were interpreted based off of the following article:** <br/>
 [http://vodkhang.com/wp-content/uploads/2013/04/Prediction-Model-for-Smartphone-Behaviour.pdf]
 
 
