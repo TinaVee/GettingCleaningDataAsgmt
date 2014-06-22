@@ -6,7 +6,7 @@
 Please look at `run_analysis.R` for my completed assignment.<br/>
 *Completed:* June 21, 2014<br/><br/>
 
-To read the output file back into R, use the following command with the machine_learning_clean.txt file in the working directory:<br/>
+To read the output file back into R, use the following command with the `machine_learning_clean.txt` file in the working directory:<br/>
 `machine_learning <- read.table("./machine_learning_clean.txt", header = TRUE, sep = "\t")`<br/>
 
 All data was downloaded from:
