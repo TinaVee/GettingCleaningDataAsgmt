@@ -1,11 +1,14 @@
 #           TINA VEE'S ASSIGNMENT
 ### Coursera: Getting and Cleaning Data, Week 3, Assignment 1.
-### File: CodeBook.md for machine_learning_clean.csv
+### File: CodeBook.md for machine_learning_clean.txt
 ========================================================
 **Description:** This is the code book that describes the variables, the data, and any transformations or work performed to clean up the data.
 Please look at `run_analysis.R` for my completed assignment.<br/>
-*Completed:* June 21, 2014
+*Completed:* June 21, 2014<br/><br/>
 
+To read the output file back into R, use the following command:<br/>
+`machine_learning <- read.table("./data/machine_learning_clean.txt", header = TRUE, sep = "\t")`<br/>
+(where the file is located in the ./data folder)<br/><br/>
 
 All data was downloaded from:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
@@ -39,7 +42,7 @@ Taken directly from: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recog
 - Its activity label. 
 - An identifier of the subject who carried out the experiment.
 
-### Details for machine_learning_clean.csv
+### Details for machine_learning_clean.txt
 
 All column names for this file were originally from features.txt. They were altered with the following transformations:</br>
 

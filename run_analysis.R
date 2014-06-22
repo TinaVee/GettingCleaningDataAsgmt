@@ -14,7 +14,6 @@
 
 #===============================================================================
 
-
 #Download data
 if(!file.exists("./data")){dir.create("/data")}
 
@@ -136,5 +135,6 @@ machine_learning = merge(activity_labels,machine_learning,by.x=1,by.y=2,all=TRUE
 require(reshape2)
 df_melt <- melt(machine_learning, id = c("file", "ActNo", "Activity"))
 clean_data_set <- dcast(df_melt, file + ActNo + Activity ~ variable, mean)
+write.table(clean_data_set, "./data/machine_learning_clean.txt", sep="\t",
+            row.names = FALSE)
 
-write.csv(clean_data_set, file = "./data/machine_learning_clean.csv")
