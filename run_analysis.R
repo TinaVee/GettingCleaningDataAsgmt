@@ -108,7 +108,7 @@ colnames(training_test_combo) <- training_test_colnames[,2]
 temp <- training_test_colnames$V2
 
 # Get names of columns that have a mean or standard deviation
-mean_std <- c("mean", "Mean", "std", "file", "ActNo")
+mean_std <- c("Mean", "Std", "file", "ActNo")
 use_columns <- unique (grep(paste(mean_std,collapse="|"), 
                             temp, value=TRUE))
 
@@ -138,6 +138,3 @@ df_melt <- melt(machine_learning, id = c("file", "ActNo", "Activity"))
 clean_data_set <- dcast(df_melt, file + ActNo + Activity ~ variable, mean)
 
 write.csv(clean_data_set, file = "./data/machine_learning_clean.csv")
-
-
-
