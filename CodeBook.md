@@ -59,15 +59,16 @@ http://vodkhang.com/wp-content/uploads/2013/04/Prediction-Model-for-Smartphone-B
 
 **Column:** file<br/>
 **Description:** column created to denote which dataset data was obtained from<br/>
+**Data type:** factor<br/>
               **Factors:** 
 * training (from training data set)<br/>
 * test (from test data set)
-<br/>
-**Data type:** factor<br/><br/>
+<br/><br/>
 
 
 **Column:** ActNo<br/>
 **Description:** activity number coded<br/>
+**Data type:** factor<br/>
       **Factors:** 1-6
 <ol>
 <li>WALKING</li>
@@ -77,12 +78,12 @@ http://vodkhang.com/wp-content/uploads/2013/04/Prediction-Model-for-Smartphone-B
 <li>STANDING</li>
 <li>LAYING</li>
 </ol>
-<br/>
-**Data type:** factor<br/><br/>
+<br/><br/>
 
 
 **Column:** Activity<br/>
 **Description:** activity as per list below<br/>
+**Data type:** factor<br/>
       **Factors:**
 * WALKING
 * WALKING_UPSTAIRS
@@ -90,7 +91,7 @@ http://vodkhang.com/wp-content/uploads/2013/04/Prediction-Model-for-Smartphone-B
 * SITTING
 * STANDING
 * LAYING
-**Data type:** factor<br/><br/>
+<br/><br/>
 
 
 **Column:** tBodyAccMeanX<br/>
