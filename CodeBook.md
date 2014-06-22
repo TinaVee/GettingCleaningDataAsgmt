@@ -30,7 +30,7 @@ For each record in the dataset it is provided:
 
 ### Details for machine_learning_clean.csv
 
-All column names for this file were originally from features.txt with the following transformations:</br>
+All column names for this file were originally from features.txt. They were altered with the following transformations:</br>
 
 | From | To   |
 |------|------|
