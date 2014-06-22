@@ -28,7 +28,6 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 <li>Uses descriptive activity names to name the activities in the data set</li>
 <li>Appropriately labels the data set with descriptive variable names. </li>
 <li>Creates a second, independent tidy data set with the average of each variable for each activity and each subject.</li>
-<li>Parish</li>
 </ol>
 
 ### Notes About the Assignment
