@@ -1,9 +1,8 @@
 #           TINA VEE'S ASSIGNMENT
 ### Coursera: Getting and Cleaning Data, Week 3, Assignment 1.
 ### File: CodeBook.md for machine_learning_clean.csv
-**Description:** This is a a code book that describes the variables, the data, and any transformations or work performed to clean up the data.
 ========================================================
-
+**Description:** This is a a code book that describes the variables, the data, and any transformations or work performed to clean up the data.
 Please look at `run_analysis.R` for my completed assignment.<br/>
 *Completed:* June 21, 2014
 
@@ -39,31 +38,31 @@ For each record in the dataset it is provided:
               **Factors:** <br/>
                                * training (from training data set)<br/>
                                * test (from test data set)<br/>
-**Data type:** numeric<br/>
+**Data type:** factor<br/>
 <br/>
 <br/>
 **Column:** ActNo<br/>
 **Description:** activity number coded<br/>
       **Factors:** 1-6<br/>
-             * 1 WALKING<br/>
-             * 2 WALKING_UPSTAIRS<br/>
-             * 3 WALKING_DOWNSTAIRS<br/>
-             * 4 SITTING<br/>
-             * 5 STANDING<br/>
-             * 6 LAYING<br/>
-**Data type:** numeric<br/>
+* 1 WALKING
+* 2 WALKING_UPSTAIRS
+* 3 WALKING_DOWNSTAIRS
+* 4 SITTING
+* 5 STANDING
+* 6 LAYING
+**Data type:** factor<br/>
 <br/>
 <br/>
 **Column:** Activity<br/>
 Description: created based on ActNo<br/>
-      **Factors:** 1-6<br/>
-             * 1 WALKING<br/>
-             * 2 WALKING_UPSTAIRS<br/>
-             * 3 WALKING_DOWNSTAIRS<br/>
-             * 4 SITTING<br/>
-             * 5 STANDING<br/>
-             * 6 LAYING<br/>
-**Data type:** numeric<br/>
+      **Factors:** <br/>
+* 1 WALKING
+* 2 WALKING_UPSTAIRS
+* 3 WALKING_DOWNSTAIRS
+* 4 SITTING
+* 5 STANDING
+* 6 LAYING
+**Data type:** factor<br/>
 <br/>
 <br/>
 **Column:** tBodyAccMeanX<br/>
