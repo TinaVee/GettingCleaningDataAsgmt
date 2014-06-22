@@ -54,14 +54,15 @@ All column names for this file were originally from features.txt. They were alte
 
 
 **Descriptions were interpreted based off of the following article:** <br/>
-[http://vodkhang.com/wp-content/uploads/2013/04/Prediction-Model-for-Smartphone-Behaviour.pdf]
+http://vodkhang.com/wp-content/uploads/2013/04/Prediction-Model-for-Smartphone-Behaviour.pdf
 
 
 **Column:** file<br/>
 **Description:** column created to denote which dataset data was obtained from<br/>
-              **Factors:** <br/>
+              **Factors:** 
 * training (from training data set)<br/>
-* test (from test data set)<br/>
+* test (from test data set)
+<br/>
 **Data type:** factor<br/><br/>
 
 
