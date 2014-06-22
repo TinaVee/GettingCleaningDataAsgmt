@@ -30,6 +30,17 @@ For each record in the dataset it is provided:
 
 ### Details for machine_learning_clean.csv
 
+All column names for this file were originally from features.txt with the following transformations:</br>
+| From | To   |
+|------|------|
+| (    |      |
+| )    |      |
+| -    |      |
+| ,    | _    |
+| std  | Std  |
+| mean | Mean |
+
+
 ####  Descriptions were interpreted based off of the following article: 
 [http://vodkhang.com/wp-content/uploads/2013/04/Prediction-Model-for-Smartphone-Behaviour.pdf]
 
