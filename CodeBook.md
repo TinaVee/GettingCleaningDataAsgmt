@@ -1,11 +1,11 @@
 #           TINA VEE'S ASSIGNMENT
-## Coursera: Getting and Cleaning Data, Week 3, Assignment 1.
+### Coursera: Getting and Cleaning Data, Week 3, Assignment 1.
 ### File: CodeBook.md for machine_learning_clean.csv
-#### Description: This is a a code book that describes the variables, the data, and any transformations or work performed to clean up the data.
+**Description:** This is a a code book that describes the variables, the data, and any transformations or work performed to clean up the data.
 ========================================================
 
-Please look at `run_analysis.R` for my completed assignment.
-Completed: June 21, 2014
+Please look at `run_analysis.R` for my completed assignment.<br/>
+*Completed:* June 21, 2014
 
 
 ### Author's Description
@@ -34,352 +34,351 @@ For each record in the dataset it is provided:
 ####  Descriptions were interpreted based off of the following article: 
 [http://vodkhang.com/wp-content/uploads/2013/04/Prediction-Model-for-Smartphone-Behaviour.pdf]
 
-
-**Column:** file
-**Description:** column created to denote which dataset data was obtained from
-              **Factors:** 
-                               * training (from training data set)
-                               * test (from test data set)
-**Data type:** numeric
-
-
-**Column:** ActNo
-**Description:** activity number coded
-      **Factors:** 1-6
-             * 1 WALKING
-             * 2 WALKING_UPSTAIRS
-             * 3 WALKING_DOWNSTAIRS
-             * 4 SITTING
-             * 5 STANDING
-             * 6 LAYING
-**Data type:** numeric
-
-
-**Column:** Activity
-Description: created based on ActNo
-      **Factors:** 1-6
-             * 1 WALKING
-             * 2 WALKING_UPSTAIRS
-             * 3 WALKING_DOWNSTAIRS
-             * 4 SITTING
-             * 5 STANDING
-             * 6 LAYING
-**Data type:** numeric
-
-
-**Column:** tBodyAccMeanX
-**Description:** Based on factors from the file and activity, this is the mean of Linear Body Acceleration X axis
-**Min:** 0.2619 **Max:** 0.2882
-**Data type:** numeric
-
-
-**Column:** tBodyAccMeanY
-**Description:** Based on factors from the file and activity, this is the mean of Linear Body Acceleration Y axis
-**Min:** -0.02665 **Max:** -0.01214
-**Data type:** numeric
-
-
-**Column:** tBodyAccMeanZ
-**Description:** Based on factors from the file and activity, this is the mean of Linear Body Acceleration Z axis
-**Min:** -0.1208 **Max:** -0.1027
-**Data type:** numeric
-
-
-**Column:** tGravityAccMeanX
-**Description:** Based on factors from the file and activity, this is the mean of Gravity Acceleration X axis
-**Min:** -0.3859 **Max:** 0.9431
-**Data type:** numeric
-
-
-**Column:** tGravityAccMeanY
-**Description:** Based on factors from the file and activity, this is the mean of Gravity Acceleration Y axis
-**Min:** -0.28692 **Max:** 0.63293
-**Data type:** numeric
-
-
-**Column:** tGravityAccMeanZ
-**Description:** Based on factors from the file and activity, this is the mean of Gravity Acceleration Z axis
-**Min:** -0.14831 **Max:** 0.57557
-**Data type:** numeric
-
-
-**Column:** tBodyAccJerkMeanX
-**Description:** Based on factors from the file and activity, this is the mean of Body Acceleration with Jerk Signal X axis
-**Min:** 0.07317 **Max:** 0.09162
-**Data type:** numeric
-
-
-**Column:** tBodyAccJerkMeanY
-**Description:** Based on factors from the file and activity, this is the mean of Body Acceleration with Jerk Signal Y axis
-**Min:** -0.003221 **Max:** 0.012123
-**Data type:** numeric
-
-
-**Column:** tBodyAccJerkMeanZ
-**Description:** Based on factors from the file and activity, this is the mean of Body Acceleration with Jerk Signal Z axis
-**Min:** -0.008875 **Max:** 0.00123
-**Data type:** numeric
-
-
-**Column:** tBodyGyroMeanX
-**Description:** Based on factors from the file and activity, this is the mean of Body Gyroscope X axis
-**Min:** -0.10134 **Max:** 0.02092
-**Data type:** numeric
-
-
-**Column:** tBodyGyroMeanY
-**Description:** Based on factors from the file and activity, this is the mean of Body Gyroscope Y axis
-**Min:** -0.098 **Max:** -0.04614
-**Data type:** numeric
-
-
-**Column:** tBodyGyroMeanZ
-**Description:** Based on factors from the file and activity, this is the mean of Body Gyroscope Z axis
-**Min:** 0.04912 **Max:** 0.12715
-**Data type:** numeric
-
-
-**Column:** tBodyGyroJerkMeanX
-**Description:** Based on factors from the file and activity, this is the mean of Body Gyroscope with Jerk Signal X axis
-**Min:** -0.11563 **Max:** -0.06957
-**Data type:** numeric
-
-
-**Column:** tBodyGyroJerkMeanY
-**Description:** Based on factors from the file and activity, this is the mean of Body Gyroscope with Jerk Signal Y axis
-**Min:** -0.05193 **Max:** -0.03702
-**Data type:** numeric
-
-
-**Column:** tBodyGyroJerkMeanZ
-**Description:** Based on factors from the file and activity, this is the mean of Body Gyroscope with Jerk Signal Z axis
-**Min:** -0.064 **Max:** -0.04932
-**Data type:** numeric
-
-
-**Column:** tBodyAccMagMean
-**Description:** Based on factors from the file and activity, this is the mean of Linear Body Acceleration with magnitude
-**Min:** -0.9616 **Max:** 0.1374
-**Data type:** numeric
-
-
-**Column:** tGravityAccMagMean
-**Description:** Based on factors from the file and activity, this is the mean of Gravity Acceleration with magnitude
-**Min:** -0.9616 **Max:** 0.1374
-**Data type:** numeric
-
-
-**Column:** tBodyAccJerkMagMean
-**Description:** Based on factors from the file and activity, this is the mean of Body Acceleration with Jerk Signal with magnitude
-**Min:** -0.983 **Max:** -0.0897
-**Data type:** numeric
-
-
-**Column:** tBodyGyroMagMean
-**Description:** Based on factors from the file and activity, this is the mean of Body Gyroscope with magnitude
-**Min:** -0.9474 **Max:** -0.1046
-**Data type:** numeric
-
-
-**Column:** tBodyGyroJerkMagMean
-**Description:** Based on factors from the file and activity, this is the mean of Body Gyroscope with Jerk Signal with magnitude
-**Min:** -0.9882 **Max:** -0.3972
-**Data type:** numeric
-
-
-**Column:** fBodyAccMeanX
-**Description:** Based on factors from the file and activity, this is the mean of Fast Fourier Transform (FFT) Linear Body Acceleration X axis
-**Min:** -0.98324 **Max:** 0.07136
-**Data type:** numeric
-
-
-**Column:** fBodyAccMeanY
-**Description:** Based on factors from the file and activity, this is the mean of FFT Linear Body Acceleration Y axis
-**Min:** -0.96286 **Max:** 0.07377
-**Data type:** numeric
-
-
-**Column:** fBodyAccMeanZ
-**Description:** Based on factors from the file and activity, this is the mean of FFT Linear Body Acceleration Z axis
-**Min:** -0.97 **Max:** -0.193
-**Data type:** numeric
-
-
-**Column:** fBodyAccMeanFreqX
-**Description:** Based on factors from the file and activity, this is the mean of FFT Linear Body Acceleration Frequency X axis
-**Min:** -0.44154 **Max:** 0.03834
-**Data type:** numeric
-
-
-**Column:** fBodyAccMeanFreqY
-**Description:** Based on factors from the file and activity, this is the mean of FFT Linear Body Acceleration Frequency Y axis
-**Min:** -0.1734 **Max:** 0.19144
-**Data type:** numeric
-
-
-**Column:** fBodyAccMeanFreqZ
-**Description:** Based on factors from the file and activity, this is the mean of FFT Linear Body Acceleration Frequency Z axis
-**Min:** -0.27951 **Max:** 0.24192
-**Data type:** numeric
-
-
-**Column:** fBodyAccJerkMeanX
-**Description:** Based on factors from the file and activity, this is the mean of FFT Linear Body Acceleration with Jerk Signal X axis
-**Min:** -0.9857 **Max:** -0.04764
-**Data type:** numeric
-
-
-**Column:** fBodyAccJerkMeanY
-**Description:** Based on factors from the file and activity, this is the mean of FFT Linear Body Acceleration with Jerk Signal Y axis
-**Min:** -0.9748 **Max:** -0.1059
-**Data type:** numeric
-
-
-**Column:** fBodyAccJerkMeanZ
-**Description:** Based on factors from the file and activity, this is the mean of FFT Linear Body Acceleration with Jerk Signal Z axis
-**Min:** -0.9799 **Max:** -0.3146
-**Data type:** numeric
-
-
-**Column:** fBodyAccJerkMeanFreqX
-**Description:** Based on factors from the file and activity, this is the mean of FFT Linear Body Acceleration with Jerk Signal Frequency X axis
-**Min:** -0.34376 **Max:** 0.20362
-**Data type:** numeric
-
-
-**Column:** fBodyAccJerkMeanFreqY
-**Description:** Based on factors from the file and activity, this is the mean of FFT Linear Body Acceleration with Jerk Signal Frequency Y axis
-**Min:** -0.45621 **Max:** 0.02929
-**Data type:** numeric
-
-
-**Column:** fBodyAccJerkMeanFreqZ
-**Description:** Based on factors from the file and activity, this is the mean of FFT Linear Body Acceleration with Jerk Signal Frequency Z axis
-**Min:** -0.449251 **Max:** 0.076565
-**Data type:** numeric
-
-
-**Column:** fBodyGyroMeanX
-**Description:** Based on factors from the file and activity, this is the mean of FFT Body Gyroscope X axis
-**Min:** -0.9779 **Max:** -0.2018
-**Data type:** numeric
-
-
-**Column:** fBodyGyroMeanY
-**Description:** Based on factors from the file and activity, this is the mean of FFT Body Gyroscope Y axis
-**Min:** -0.9732 **Max:** -0.2868
-**Data type:** numeric
-
-
-**Column:** fBodyGyroMeanZ
-**Description:** Based on factors from the file and activity, this is the mean of FFT Body Gyroscope Z axis
-**Min:** -0.9683 **Max:** -0.1529
-**Data type:** numeric
-
-
-**Column:** fBodyGyroMeanFreqX
-**Description:** Based on factors from the file and activity, this is the mean of FFT Body Gyroscope Frequency X axis
-**Min:** -0.25755 **Max:** 0.06669
-**Data type:** numeric
-
-
-**Column:** fBodyGyroMeanFreqY
-**Description:** Based on factors from the file and activity, this is the mean of FFT Body Gyroscope Frequency Y axis
-**Min:** -0.32436 **Max:** -0.02127
-**Data type:** numeric
-
-
-**Column:** fBodyGyroMeanFreqZ
-**Description:** Based on factors from the file and activity, this is the mean of FFT Body Gyroscope Frequency Z axis
-**Min:** -0.263452 **Max:** 0.113422
-**Data type:** numeric
-
-
-**Column:** fBodyAccMagMean
-**Description:** Based on factors from the file and activity, this is the mean of FFT Linear Body Acceleration with magnitude
-**Min:** -0.9582 **Max:** 0.1711
-**Data type:** numeric
-
-
-**Column:** fBodyAccMagMeanFreq
-**Description:** Based on factors from the file and activity, this is the mean of FFT Linear Body Acceleration Frequency with magnitude
-**Min:** -0.05537 **Max:** 0.24654
-**Data type:** numeric
-
-
-**Column:** fBodyBodyAccJerkMagMean
-**Description:** Based on factors from the file and activity, this is the mean of FFT Linear Body Acceleration with Jerk Signal with magnitude
-**Min:** -0.97926 **Max:** 0.02755
-**Data type:** numeric
-
-
-**Column:** fBodyBodyAccJerkMagMeanFreq
-**Description:** Based on factors from the file and activity, this is the mean of FFT Linear Body Acceleration with Jerk Signal Frequency with magnitude
-**Min:** 0.01107 **Max:** 0.29065
-**Data type:** numeric
-
-
-**Column:** fBodyBodyGyroMagMean
-**Description:** Based on factors from the file and activity, this is the mean of FFT Body Gyroscope with magnitude
-**Min:** -0.9648 **Max:** -0.266
-**Data type:** numeric
-
-
-**Column:** fBodyBodyGyroMagMeanFreq
-**Description:** Based on factors from the file and activity, this is the mean of FFT Body Gyroscope Frequency with magnitude
-**Min:** -0.21264 **Max:** 0.20358
-**Data type:** numeric
-
-
-**Column:** fBodyBodyGyroJerkMagMean
-**Description:** Based on factors from the file and activity, this is the mean of FTT Body Gyroscope with Jerk Signal with magnitude
-**Min:** -0.9857 **Max:** -0.4234
-**Data type:** numeric
-
-
-**Column:** fBodyBodyGyroJerkMagMeanFreq
-**Description:** Based on factors from the file and activity, this is the mean of FTT Body Gyroscope with Jerk Signal  Frequency with magnitude
-**Min:** 0.06057 **Max:** 0.18949
-**Data type:** numeric
-
-
-**Column:** angletBodyAccMean_gravity
-**Description:** Based on factors from the file and activity, this is the mean of Linear Body Acceleration with angle measured between xyz vector and gravity mean
-**Min:** -0.042003 **Max:** 0.048007
-**Data type:** numeric
-
-
-**Column:** angletBodyAccJerkMean_gravityMean
-**Description:** Based on factors from the file and activity, this is the mean of Body Acceleration with Jerk Signal with angle measured between xyz vector and gravity mean
-**Min:** -0.021818 **Max:** 0.020597
-**Data type:** numeric
-
-
-**Column:** angletBodyGyroMean_gravityMean
-**Description:** Based on factors from the file and activity, this is the mean of Body Gyroscope with angle measured between xyz vector and gravity mean
-**Min:** -0.156998 **Max:** 0.247779
-**Data type:** numeric
-
-
-**Column:** angletBodyGyroJerkMean_gravityMean
-**Description:** Based on factors from the file and activity, this is the mean of Body Gyroscope with Jerk Signal with angle measured between xyz vector and gravity mean
-**Min:** -0.088956 **Max:** 0.044775
-**Data type:** numeric
-
-
-**Column:** angleX_gravityMean
-**Description:** Based on factors from the file and activity, this is the mean of Angle measured between x and gravity mean
-**Min:** -0.787 **Max:** 0.5285
-**Data type:** numeric
-
-
-**Column:** angleY_gravityMean
-**Description:** Based on factors from the file and activity, this is the mean of Angle measured between y and gravity mean
-**Min:** -0.44082 **Max:** 0.28237
-**Data type:** numeric
-
-
-**Column:** angleZ_gravityMean
-**Description:** Based on factors from the file and activity, this is the mean of Angle measured between z and gravity mean
-**Min:** -0.44571 **Max:** 0.12841
-**Data type:** numeric
+**Column:** file<br/>
+**Description:** column created to denote which dataset data was obtained from<br/>
+              **Factors:** <br/>
+                               * training (from training data set)<br/>
+                               * test (from test data set)<br/>
+**Data type:** numeric<br/>
+<br/>
+<br/>
+**Column:** ActNo<br/>
+**Description:** activity number coded<br/>
+      **Factors:** 1-6<br/>
+             * 1 WALKING<br/>
+             * 2 WALKING_UPSTAIRS<br/>
+             * 3 WALKING_DOWNSTAIRS<br/>
+             * 4 SITTING<br/>
+             * 5 STANDING<br/>
+             * 6 LAYING<br/>
+**Data type:** numeric<br/>
+<br/>
+<br/>
+**Column:** Activity<br/>
+Description: created based on ActNo<br/>
+      **Factors:** 1-6<br/>
+             * 1 WALKING<br/>
+             * 2 WALKING_UPSTAIRS<br/>
+             * 3 WALKING_DOWNSTAIRS<br/>
+             * 4 SITTING<br/>
+             * 5 STANDING<br/>
+             * 6 LAYING<br/>
+**Data type:** numeric<br/>
+<br/>
+<br/>
+**Column:** tBodyAccMeanX<br/>
+**Description:** Based on factors from the file and activity, this is the mean of Linear Body Acceleration X axis<br/>
+**Min:** 0.2619 **Max:** 0.2882<br/>
+**Data type:** numeric<br/>
+<br/>
+<br/>
+**Column:** tBodyAccMeanY<br/>
+**Description:** Based on factors from the file and activity, this is the mean of Linear Body Acceleration Y axis<br/>
+**Min:** -0.02665 **Max:** -0.01214<br/>
+**Data type:** numeric<br/>
+<br/>
+<br/>
+**Column:** tBodyAccMeanZ<br/>
+**Description:** Based on factors from the file and activity, this is the mean of Linear Body Acceleration Z axis<br/>
+**Min:** -0.1208 **Max:** -0.1027<br/>
+**Data type:** numeric<br/>
+<br/>
+<br/>
+**Column:** tGravityAccMeanX<br/>
+**Description:** Based on factors from the file and activity, this is the mean of Gravity Acceleration X axis<br/>
+**Min:** -0.3859 **Max:** 0.9431<br/>
+**Data type:** numeric<br/>
+<br/>
+<br/>
+**Column:** tGravityAccMeanY<br/>
+**Description:** Based on factors from the file and activity, this is the mean of Gravity Acceleration Y axis<br/>
+**Min:** -0.28692 **Max:** 0.63293<br/>
+**Data type:** numeric<br/>
+<br/>
+<br/>
+**Column:** tGravityAccMeanZ<br/>
+**Description:** Based on factors from the file and activity, this is the mean of Gravity Acceleration Z axis<br/>
+**Min:** -0.14831 **Max:** 0.57557<br/>
+**Data type:** numeric<br/>
+<br/>
+<br/>
+**Column:** tBodyAccJerkMeanX<br/>
+**Description:** Based on factors from the file and activity, this is the mean of Body Acceleration with Jerk Signal X axis<br/>
+**Min:** 0.07317 **Max:** 0.09162<br/>
+**Data type:** numeric<br/>
+<br/>
+<br/>
+**Column:** tBodyAccJerkMeanY<br/>
+**Description:** Based on factors from the file and activity, this is the mean of Body Acceleration with Jerk Signal Y axis<br/>
+**Min:** -0.003221 **Max:** 0.012123<br/>
+**Data type:** numeric<br/>
+<br/>
+<br/>
+**Column:** tBodyAccJerkMeanZ<br/>
+**Description:** Based on factors from the file and activity, this is the mean of Body Acceleration with Jerk Signal Z axis<br/>
+**Min:** -0.008875 **Max:** 0.00123<br/>
+**Data type:** numeric<br/>
+<br/>
+<br/>
+**Column:** tBodyGyroMeanX<br/>
+**Description:** Based on factors from the file and activity, this is the mean of Body Gyroscope X axis<br/>
+**Min:** -0.10134 **Max:** 0.02092<br/>
+**Data type:** numeric<br/>
+<br/>
+<br/>
+**Column:** tBodyGyroMeanY<br/>
+**Description:** Based on factors from the file and activity, this is the mean of Body Gyroscope Y axis<br/>
+**Min:** -0.098 **Max:** -0.04614<br/>
+**Data type:** numeric<br/>
+<br/>
+<br/>
+**Column:** tBodyGyroMeanZ<br/>
+**Description:** Based on factors from the file and activity, this is the mean of Body Gyroscope Z axis<br/>
+**Min:** 0.04912 **Max:** 0.12715<br/>
+**Data type:** numeric<br/>
+<br/>
+<br/>
+**Column:** tBodyGyroJerkMeanX<br/>
+**Description:** Based on factors from the file and activity, this is the mean of Body Gyroscope with Jerk Signal X axis<br/>
+**Min:** -0.11563 **Max:** -0.06957<br/>
+**Data type:** numeric<br/>
+<br/>
+<br/>
+**Column:** tBodyGyroJerkMeanY<br/>
+**Description:** Based on factors from the file and activity, this is the mean of Body Gyroscope with Jerk Signal Y axis<br/>
+**Min:** -0.05193 **Max:** -0.03702<br/>
+**Data type:** numeric<br/>
+<br/>
+<br/>
+**Column:** tBodyGyroJerkMeanZ<br/>
+**Description:** Based on factors from the file and activity, this is the mean of Body Gyroscope with Jerk Signal Z axis<br/>
+**Min:** -0.064 **Max:** -0.04932<br/>
+**Data type:** numeric<br/>
+<br/>
+<br/>
+**Column:** tBodyAccMagMean<br/>
+**Description:** Based on factors from the file and activity, this is the mean of Linear Body Acceleration with magnitude<br/>
+**Min:** -0.9616 **Max:** 0.1374<br/>
+**Data type:** numeric<br/>
+<br/>
+<br/>
+**Column:** tGravityAccMagMean<br/>
+**Description:** Based on factors from the file and activity, this is the mean of Gravity Acceleration with magnitude<br/>
+**Min:** -0.9616 **Max:** 0.1374<br/>
+**Data type:** numeric<br/>
+<br/>
+<br/>
+**Column:** tBodyAccJerkMagMean<br/>
+**Description:** Based on factors from the file and activity, this is the mean of Body Acceleration with Jerk Signal with magnitude<br/>
+**Min:** -0.983 **Max:** -0.0897<br/>
+**Data type:** numeric<br/>
+<br/>
+<br/>
+**Column:** tBodyGyroMagMean<br/>
+**Description:** Based on factors from the file and activity, this is the mean of Body Gyroscope with magnitude<br/>
+**Min:** -0.9474 **Max:** -0.1046<br/>
+**Data type:** numeric<br/>
+<br/>
+<br/>
+**Column:** tBodyGyroJerkMagMean<br/>
+**Description:** Based on factors from the file and activity, this is the mean of Body Gyroscope with Jerk Signal with magnitude<br/>
+**Min:** -0.9882 **Max:** -0.3972<br/>
+**Data type:** numeric<br/>
+<br/>
+<br/>
+**Column:** fBodyAccMeanX<br/>
+**Description:** Based on factors from the file and activity, this is the mean of Fast Fourier Transform (FFT) Linear Body Acceleration X axis<br/>
+**Min:** -0.98324 **Max:** 0.07136<br/>
+**Data type:** numeric<br/>
+<br/>
+<br/>
+**Column:** fBodyAccMeanY<br/>
+**Description:** Based on factors from the file and activity, this is the mean of FFT Linear Body Acceleration Y axis<br/>
+**Min:** -0.96286 **Max:** 0.07377<br/>
+**Data type:** numeric<br/>
+<br/>
+<br/>
+**Column:** fBodyAccMeanZ<br/>
+**Description:** Based on factors from the file and activity, this is the mean of FFT Linear Body Acceleration Z axis<br/>
+**Min:** -0.97 **Max:** -0.193<br/>
+**Data type:** numeric<br/>
+<br/>
+<br/>
+**Column:** fBodyAccMeanFreqX<br/>
+**Description:** Based on factors from the file and activity, this is the mean of FFT Linear Body Acceleration Frequency X axis<br/>
+**Min:** -0.44154 **Max:** 0.03834<br/>
+**Data type:** numeric<br/>
+<br/>
+<br/>
+**Column:** fBodyAccMeanFreqY<br/>
+**Description:** Based on factors from the file and activity, this is the mean of FFT Linear Body Acceleration Frequency Y axis<br/>
+**Min:** -0.1734 **Max:** 0.19144<br/>
+**Data type:** numeric<br/>
+<br/>
+<br/>
+**Column:** fBodyAccMeanFreqZ<br/>
+**Description:** Based on factors from the file and activity, this is the mean of FFT Linear Body Acceleration Frequency Z axis<br/>
+**Min:** -0.27951 **Max:** 0.24192<br/>
+**Data type:** numeric<br/>
+<br/>
+<br/>
+**Column:** fBodyAccJerkMeanX<br/>
+**Description:** Based on factors from the file and activity, this is the mean of FFT Linear Body Acceleration with Jerk Signal X axis<br/>
+**Min:** -0.9857 **Max:** -0.04764<br/>
+**Data type:** numeric<br/>
+<br/>
+<br/>
+**Column:** fBodyAccJerkMeanY<br/>
+**Description:** Based on factors from the file and activity, this is the mean of FFT Linear Body Acceleration with Jerk Signal Y axis<br/>
+**Min:** -0.9748 **Max:** -0.1059<br/>
+**Data type:** numeric<br/>
+<br/>
+<br/>
+**Column:** fBodyAccJerkMeanZ<br/>
+**Description:** Based on factors from the file and activity, this is the mean of FFT Linear Body Acceleration with Jerk Signal Z axis<br/>
+**Min:** -0.9799 **Max:** -0.3146<br/>
+**Data type:** numeric<br/>
+<br/>
+<br/>
+**Column:** fBodyAccJerkMeanFreqX<br/>
+**Description:** Based on factors from the file and activity, this is the mean of FFT Linear Body Acceleration with Jerk Signal Frequency X axis<br/>
+**Min:** -0.34376 **Max:** 0.20362<br/>
+**Data type:** numeric<br/>
+<br/>
+<br/>
+**Column:** fBodyAccJerkMeanFreqY<br/>
+**Description:** Based on factors from the file and activity, this is the mean of FFT Linear Body Acceleration with Jerk Signal Frequency Y axis<br/>
+**Min:** -0.45621 **Max:** 0.02929<br/>
+**Data type:** numeric<br/>
+<br/>
+<br/>
+**Column:** fBodyAccJerkMeanFreqZ<br/>
+**Description:** Based on factors from the file and activity, this is the mean of FFT Linear Body Acceleration with Jerk Signal Frequency Z axis<br/>
+**Min:** -0.449251 **Max:** 0.076565<br/>
+**Data type:** numeric<br/>
+<br/>
+<br/>
+**Column:** fBodyGyroMeanX<br/>
+**Description:** Based on factors from the file and activity, this is the mean of FFT Body Gyroscope X axis<br/>
+**Min:** -0.9779 **Max:** -0.2018<br/>
+**Data type:** numeric<br/>
+<br/>
+<br/>
+**Column:** fBodyGyroMeanY<br/>
+**Description:** Based on factors from the file and activity, this is the mean of FFT Body Gyroscope Y axis<br/>
+**Min:** -0.9732 **Max:** -0.2868<br/>
+**Data type:** numeric<br/>
+<br/>
+<br/>
+**Column:** fBodyGyroMeanZ<br/>
+**Description:** Based on factors from the file and activity, this is the mean of FFT Body Gyroscope Z axis<br/>
+**Min:** -0.9683 **Max:** -0.1529<br/>
+**Data type:** numeric<br/>
+<br/>
+<br/>
+**Column:** fBodyGyroMeanFreqX<br/>
+**Description:** Based on factors from the file and activity, this is the mean of FFT Body Gyroscope Frequency X axis<br/>
+**Min:** -0.25755 **Max:** 0.06669<br/>
+**Data type:** numeric<br/>
+<br/>
+<br/>
+**Column:** fBodyGyroMeanFreqY<br/>
+**Description:** Based on factors from the file and activity, this is the mean of FFT Body Gyroscope Frequency Y axis<br/>
+**Min:** -0.32436 **Max:** -0.02127<br/>
+**Data type:** numeric<br/>
+<br/>
+<br/>
+**Column:** fBodyGyroMeanFreqZ<br/>
+**Description:** Based on factors from the file and activity, this is the mean of FFT Body Gyroscope Frequency Z axis<br/>
+**Min:** -0.263452 **Max:** 0.113422<br/>
+**Data type:** numeric<br/>
+<br/>
+<br/>
+**Column:** fBodyAccMagMean<br/>
+**Description:** Based on factors from the file and activity, this is the mean of FFT Linear Body Acceleration with magnitude<br/>
+**Min:** -0.9582 **Max:** 0.1711<br/>
+**Data type:** numeric<br/>
+<br/>
+<br/>
+**Column:** fBodyAccMagMeanFreq<br/>
+**Description:** Based on factors from the file and activity, this is the mean of FFT Linear Body Acceleration Frequency with magnitude<br/>
+**Min:** -0.05537 **Max:** 0.24654<br/>
+**Data type:** numeric<br/>
+<br/>
+<br/>
+**Column:** fBodyBodyAccJerkMagMean<br/>
+**Description:** Based on factors from the file and activity, this is the mean of FFT Linear Body Acceleration with Jerk Signal with magnitude<br/>
+**Min:** -0.97926 **Max:** 0.02755<br/>
+**Data type:** numeric<br/>
+<br/>
+<br/>
+**Column:** fBodyBodyAccJerkMagMeanFreq<br/>
+**Description:** Based on factors from the file and activity, this is the mean of FFT Linear Body Acceleration with Jerk Signal Frequency with magnitude<br/>
+**Min:** 0.01107 **Max:** 0.29065<br/>
+**Data type:** numeric<br/>
+<br/>
+<br/>
+**Column:** fBodyBodyGyroMagMean<br/>
+**Description:** Based on factors from the file and activity, this is the mean of FFT Body Gyroscope with magnitude<br/>
+**Min:** -0.9648 **Max:** -0.266<br/>
+**Data type:** numeric<br/>
+<br/>
+<br/>
+**Column:** fBodyBodyGyroMagMeanFreq<br/>
+**Description:** Based on factors from the file and activity, this is the mean of FFT Body Gyroscope Frequency with magnitude<br/>
+**Min:** -0.21264 **Max:** 0.20358<br/>
+**Data type:** numeric<br/>
+<br/>
+<br/>
+**Column:** fBodyBodyGyroJerkMagMean<br/>
+**Description:** Based on factors from the file and activity, this is the mean of FTT Body Gyroscope with Jerk Signal with magnitude<br/>
+**Min:** -0.9857 **Max:** -0.4234<br/>
+**Data type:** numeric<br/>
+<br/>
+<br/>
+**Column:** fBodyBodyGyroJerkMagMeanFreq<br/>
+**Description:** Based on factors from the file and activity, this is the mean of FTT Body Gyroscope with Jerk Signal  Frequency with magnitude<br/>
+**Min:** 0.06057 **Max:** 0.18949<br/>
+**Data type:** numeric<br/>
+<br/>
+<br/>
+**Column:** angletBodyAccMean_gravity<br/>
+**Description:** Based on factors from the file and activity, this is the mean of Linear Body Acceleration with angle measured between xyz vector and gravity mean<br/>
+**Min:** -0.042003 **Max:** 0.048007<br/>
+**Data type:** numeric<br/>
+<br/>
+<br/>
+**Column:** angletBodyAccJerkMean_gravityMean<br/>
+**Description:** Based on factors from the file and activity, this is the mean of Body Acceleration with Jerk Signal with angle measured between xyz vector and gravity mean<br/>
+**Min:** -0.021818 **Max:** 0.020597<br/>
+**Data type:** numeric<br/>
+<br/>
+<br/>
+**Column:** angletBodyGyroMean_gravityMean<br/>
+**Description:** Based on factors from the file and activity, this is the mean of Body Gyroscope with angle measured between xyz vector and gravity mean<br/>
+**Min:** -0.156998 **Max:** 0.247779<br/>
+**Data type:** numeric<br/>
+<br/>
+<br/>
+**Column:** angletBodyGyroJerkMean_gravityMean<br/>
+**Description:** Based on factors from the file and activity, this is the mean of Body Gyroscope with Jerk Signal with angle measured between xyz vector and gravity mean<br/>
+**Min:** -0.088956 **Max:** 0.044775<br/>
+**Data type:** numeric<br/>
+<br/>
+<br/>
+**Column:** angleX_gravityMean<br/>
+**Description:** Based on factors from the file and activity, this is the mean of Angle measured between x and gravity mean<br/>
+**Min:** -0.787 **Max:** 0.5285<br/>
+**Data type:** numeric<br/>
+<br/>
+<br/>
+**Column:** angleY_gravityMean<br/>
+**Description:** Based on factors from the file and activity, this is the mean of Angle measured between y and gravity mean<br/>
+**Min:** -0.44082 **Max:** 0.28237<br/>
+**Data type:** numeric<br/>
+<br/>
+<br/>
+**Column:** angleZ_gravityMean<br/>
+**Description:** Based on factors from the file and activity, this is the mean of Angle measured between z and gravity mean<br/>
+**Min:** -0.44571 **Max:** 0.12841<br/>
+**Data type:** numeric<br/>

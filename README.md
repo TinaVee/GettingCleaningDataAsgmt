@@ -1,11 +1,11 @@
 #           TINA VEE'S ASSIGNMENT
-## Coursera: Getting and Cleaning Data, Week 3, Assignment 1.
+### Coursera: Getting and Cleaning Data, Week 3, Assignment 1.
 ### File: README.md
 #### Description: This file explains what occurs in the script (how the resulting data is tidy)
 ========================================================
 
-Please look at `run_analysis.R` for my completed assignment.
-Please examine `CodeBook.md` for the Code Book for more explanation of the R file.
+Please look at `run_analysis.R` for my completed assignment.<br/>
+Please examine `CodeBook.md` for the Code Book for more explanation of the R file.<br/>
 **Completed:** June 21, 2014
 
 ### Assignment Instructions: 
